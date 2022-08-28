@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ٍSpecial project</title>
+    <!--normalize All element-->
+    <link rel="stylesheet" href="fileCss/normlaz.css">
+    <!--icon-->
+    <link rel="stylesheet" href="fileCss/all.min.css">
+    <!--main style-->
+    <link rel="stylesheet" href="fileCss/main.css">
+    <!--google fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!--start setting-->
+    <div class="setting">
+        <div class="icon">
+            <i class="fa-solid fa-gear"></i>
+        </div>
+        <div class="options">
+            <div class="color">
+                <h3>color settings</h3>
+                <ul>
+                    <li seting-color="#f57c00" class="active"></li>
+                    <li seting-color="#00695c"></li>
+                    <li seting-color="#4527a0"></li>
+                    <li seting-color="#c2185b"></li>
+                    <li seting-color="#388e3c"></li>
+                </ul>
+            </div>
+            <div class="background">
+                <input type="checkbox" id="backGround-check" checked>
+                <label for="backGround-check">Change background</label>
+            </div>
+            <div class="bullets">
+                <input type="checkbox" id="bullets-check" checked>
+                <label for="bullets-check">Remove bullets</label>
+            </div>
+            <button class="reset">Reset Options</button>
+        </div>
+    </div>
+    <!--end setting-->
+    <!--start bulets-->
+    <div class="bulets">
+        <div class="bulet" data-for-scroll="about-us">
+            <div>About Us</div>
+        </div>
+        <div class="bulet" data-for-scroll="our-skills">
+            <div>Our Skills</div>
+        </div>
+        <div class="bulet" data-for-scroll="Gallery">
+            <div>Our Gallery</div>
+        </div>
+        <div class="bulet" data-for-scroll="our-features">
+            <div>Our Features</div>
+        </div>
+    </div>
+    <!--end bulets-->
+    <!--strat landing page-->
+    <div class="landing-page">
+        <div class="conteiner">
+            <div class="heading">
+                <div>Logo</div>
+                <ul>
+                    <li><a href="#about" class="active">About</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#gallery">Gallery</a></li>
+                    <li><a href="#time">TimeLine</a></li>
+                    <li><a href="#feat">Features</a></li>
+                </ul>
+                <button class="icon"><i class="fa-solid fa-align-justify"></i></button>
+            </div>
+        </div>
+        <div class="introduction">
+            <h1>We Are <span>Creative</span> Agency</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit amet exercitationem ut a atque</p>
+        </div>
+    </div>
+    <!--end landing page-->
+    <!--start abut us-->
+    <div class="conteiner">
+        <div class="about-us" id="about">
+            <div class="info">
+                <h2>About Us</h2>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. 
+                    Nostrum, facere atque dolores impedit illum ducimus obcaecati 
+                    dolorem recusandae quos nisi rem molestias laboriosam optio 
+                    veritatis quidem officia voluptatem est eaque.</p>
+            </div>
+            <div class="img">
+                <img src="img/About-us.jpg" alt="">
+            </div>
+        </div>
+    </div>
+    <!--end abut us-->
+    <!--start our skills-->
+    <div class="our-skills" id="skills">
+        <div class="conteiner">
+            <h2>Our Skills</h2>
+            <div class="skill">
+                <span class="name">HTML</span>
+                <div><span class="prograss" data-prograss="70%"></span></div>
+            </div>
+            <div class="skill">
+                <span class="name">CSS</span>
+                <div><span class="prograss" data-prograss="40%"></span></div>
+            </div>
+            <div class="skill">
+                <span class="name">JS</span>
+                <div><span class="prograss" data-prograss="60%"></span></div>
+            </div>
+            <div class="skill">
+                <span class="name">PHP</span>
+                <div><span class="prograss" data-prograss="90%"></span></div>
+            </div>
+            <div class="skill">
+                <span class="name">C#</span>
+                <div><span class="prograss" data-prograss="20%"></span></div>
+            </div>
+            <div class="skill">
+                <span class="name">C++</span>
+                <div><span class="prograss" data-prograss="50%"></span></div>
+            </div>
+        </div>
+    </div>
+    <!--end our skills-->
+    <!--start Gallery-->
+    <div class="Gallery" id="gallery">
+        <div class="conteiner">
+            <h2>Our Gallery</h2>
+            <div class="imgs">
+                <img src="img/06.jpg" alt="">
+                <img src="img/07.jpg" alt="">
+                <img src="img/08.jpg" alt="">
+                <img src="img/09.jpg" alt="">
+                <img src="img/10.jpg" alt="">
+                <img src="img/11.jpg" alt="">
+                <img src="img/12.jpg" alt="">
+                <img src="img/08.jpg" alt="">
+                <img src="img/06.jpg" alt="">
+                <img src="img/09.jpg" alt="">
+            </div>
+        </div>
+    </div>
+    <!--end Gallery-->
+    <!--start Timeline -->
+    <div class="time-line" id="time">
+        <div class="conteiner">
+            <div class="time-line-boxs">
+                <div class="year">2020</div>
+                <div class="time-box">
+                    <div class="left">
+                        <h3>Testing Heading</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit quas, 
+                            praesentium esse nihil recusandae quo nesciunt sapiente odit placeat 
+                            dolor accusantium hic, ad corrupti, porro officia soluta nisi eum voluptate.</p>
+                    </div>
+                    <div class="right">
+                        <h3>Testing Heading</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit quas, 
+                            praesentium esse nihil recusandae quo nesciunt sapiente odit placeat 
+                            dolor accusantium hic, ad corrupti, porro officia soluta nisi eum voluptate.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="time-line-boxs">
+                <div class="year">2022</div>
+                <div class="time-box">
+                    <div class="left">
+                        <h3>Testing Heading</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit quas, 
+                            praesentium esse nihil recusandae quo nesciunt sapiente odit placeat 
+                            dolor accusantium hic, ad corrupti, porro officia soluta nisi eum voluptate.</p>
+                    </div>
+                    <div class="right">
+                        <h3>Testing Heading</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit quas, 
+                            praesentium esse nihil recusandae quo nesciunt sapiente odit placeat 
+                            dolor accusantium hic, ad corrupti, porro officia soluta nisi eum voluptate.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--end Timeline-->
+    <!--start Our Features-->
+    <div class="our-features" id="feat">
+        <div class="conteiner">
+            <h2>Our Features</h2>
+            <div class="content">
+                <div class="feat">
+                    <img src="img/11.jpg" alt="">
+                    <h4>Develpment</h4>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                </div>
+                <div class="feat">
+                    <img src="img/06.jpg" alt="">
+                    <h4>Develpment</h4>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                </div>
+                <div class="feat">
+                    <img src="img/07.jpg" alt="">
+                    <h4>Develpment</h4>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                </div>
+                <div class="feat">
+                    <img src="img/08.jpg" alt="">
+                    <h4>Develpment</h4>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                </div>
+                <div class="feat">
+                    <img src="img/09.jpg" alt="">
+                    <h4>Develpment</h4>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                </div>
+                <div class="feat">
+                    <img src="img/10.jpg" alt="">
+                    <h4>Develpment</h4>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--end Our Features-->
+    <!--start concat us-->
+    <div class="concat-us">
+        <div class="conteiner">
+            <h2>Contact Us</h2>
+            <form action="">
+                <div class="left">
+                    <input type="text" placeholder="your Name" name="yourName">
+                    <input type="text" placeholder="Phone" name="phone">
+                    <input type="email" placeholder="Your Email" name="yourEmail">
+                    <input type="text" placeholder="Subject" name="subject">
+                </div>
+                <div class="right">
+                    <textarea name="messege" placeholder="Your Messege"></textarea>
+                    <input type="submit" value="Send">
+                </div>
+            </form>
+        </div>
+    </div>
+    <!--end concat us-->
+    <!--start footer-->
+    <footer>Created by Ahmed M S Afana <span>&copy;2022</span></footer>
+    <!--end footer-->
+    <script src="FileJS/main.js"></script>
+</body>
+</html>
